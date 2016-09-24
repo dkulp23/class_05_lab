@@ -19,7 +19,7 @@ Test this function by hand in the console to get it working, and when you think 
 	var addArray = [add,string];
 	return addArray
 }
-sumAdd(4,7);
+
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
 
