@@ -7,11 +7,8 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-<<<<<<< HEAD
+
 var sum = function(x, y) {
-=======
-/var sum = function(x, y) {
->>>>>>> 3ad6bdd97cf4b8d5e0f52ee0d8e004223e7da982
 	var add = (x + y);
 	var string = 'The sum of ' +  x + ' and ' + y + ' is ' + add + '.';
 	var addArray = [add, string];
@@ -35,13 +32,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 
 function multiply(x, y) {
-
-/*function multiply(x, y) {
 	var product = (x * y);
 	var string = 'The product of ' +  x + ' and ' + y + ' is ' + product + '.';
 	var array = [product, string];
 	return array;
 }
+
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(4,7);
 
@@ -57,16 +53,16 @@ Fourth element: "The product of 4 and 7 and 5 is 140."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-/*var sumAndMultiply = function (x,y,z) {
+
+var sumAndMultiply = function(x, y, z) {
 	var add = (x + y + z);
 	var multiply = (x * y * z);
-	var string1 = x + ' and ' + y + ' and ' + z + ' sum to ' + add + '.';
-	var string2 = ' The product of ' + x + ' and ' + y + ' and ' + z + ' is ' + multiply + '.';
-	var specialArray = [add,multiply,string1,string2];
-};
+	var stringA = x + ' and ' + y + ' and ' + z + ' sum to ' + add + '.';
+	var stringB = 'The product of ' + x + ' and ' + y + ' and ' + z + ' is ' + multiply + '.';
+	var specialArray = [add, multiply, stringA, stringB];
+	return specialArray;
+}
 
-
-sumAndMultiply(4,7,5);
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4,7,5);
 
@@ -81,6 +77,16 @@ Write a function called sumArray() that takes in an array of numbers as its argu
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
+
+function sumArray(numsArray) {
+	var total = 0;
+	for (var i = 0; i < numsArray.length; i++) {
+		total += numsArray[i];
+	}
+	var string = numsArray + ' was passed in as an array of numbers, and ' + total + ' is their sum.';
+	var array = [total, string];
+	return array;
+}
 
 testArray = [2,3,4];
 
