@@ -104,6 +104,16 @@ Write a function called multiplyArray() that takes an array of numbers as its ar
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
+function multiplyArray(numsArray) {
+	var total = 1;
+	for (var i = 0; i < numsArray.length; i++) {
+		total = total * numsArray[i];
+	}
+	var string = 'The numbers ' + numsArray + ' have a product of' + ' ' + total + '.';
+	var array = [total,string];
+	return array;
+}
+
 
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
