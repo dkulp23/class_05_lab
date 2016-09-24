@@ -29,6 +29,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 
+function multiply(x, y) {
+	var product = (x * y);
+	var string = 'The product of ' +  x + ' and ' + y + ' is ' + product + '.';
+	var array = [product, string];
+	return array;
+}
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(4,7);
 
