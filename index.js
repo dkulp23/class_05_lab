@@ -3,23 +3,17 @@
 Write a function called sum() that takes in two numbers as arguments and then returns an array where the first element is the sum of those numbers, and the second element is a string that EXACTLY follows this example and uses the values that were input into the function:
 
 "The sum of 4 and 7 is 11."
-var sumAdd = function(x,y) {
-	var add = (x + y);
-	var string = 'The sum of ' +  x + ' and ' + y + ' is ' + add + '. ';
-	var addArray = [add,string];
-	return addArray
-}
-sumAdd(4,7)
+
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-/*var sumAdd = function(x,y) {
+/*var sum = function(x, y) {
 	var add = (x + y);
 	var string = 'The sum of ' +  x + ' and ' + y + ' is ' + add + '. ';
 	var addArray = [add,string];
-	return addArray
+	return addArray;
 }
-sumAdd(4,7);
+
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
 
