@@ -7,10 +7,10 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-/*var sum = function(x, y) {
+var sum = function(x, y) {
 	var add = (x + y);
-	var string = 'The sum of ' +  x + ' and ' + y + ' is ' + add + '. ';
-	var addArray = [add,string];
+	var string = 'The sum of ' +  x + ' and ' + y + ' is ' + add + '.';
+	var addArray = [add, string];
 	return addArray;
 }
 
