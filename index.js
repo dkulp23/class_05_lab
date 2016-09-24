@@ -7,6 +7,12 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
+var sum = function(x, y) {
+	var add = (x + y);
+	var string = 'The sum of ' +  x + ' and ' + y + ' is ' + add + '.';
+	var addArray = [add, string];
+	return addArray;
+}
 
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
@@ -23,6 +29,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 
+function multiply(x, y) {
+	var product = (x * y);
+	var string = 'The product of ' +  x + ' and ' + y + ' is ' + product + '.';
+	var array = [product, string];
+	return array;
+}
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(4,7);
 
