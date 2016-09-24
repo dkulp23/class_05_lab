@@ -7,7 +7,7 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-var sum = function(x, y) {
+/var sum = function(x, y) {
 	var add = (x + y);
 	var string = 'The sum of ' +  x + ' and ' + y + ' is ' + add + '.';
 	var addArray = [add, string];
@@ -29,7 +29,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 
-function multiply(x, y) {
+/*function multiply(x, y) {
 	var product = (x * y);
 	var string = 'The product of ' +  x + ' and ' + y + ' is ' + product + '.';
 	var array = [product, string];
@@ -50,7 +50,16 @@ Fourth element: "The product of 4 and 7 and 5 is 140."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
+/*var sumAndMultiply = function (x,y,z) {
+	var add = (x + y + z);
+	var multiply = (x * y * z);
+	var string1 = x + ' and ' + y + ' and ' + z + ' sum to ' + add + '.';
+	var string2 = ' The product of ' + x + ' and ' + y + ' and ' + z + ' is ' + multiply + '.';
+	var specialArray = [add,multiply,string1,string2];
+};
 
+
+sumAndMultiply(4,7,5);
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4,7,5);
 
